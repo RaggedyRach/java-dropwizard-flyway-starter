@@ -17,7 +17,7 @@ public final class DatabaseConnector {
             String username = System.getenv().get("DB_USERNAME");
             String password = System.getenv().get("DB_PASSWORD");
             String host = System.getenv().get("DB_HOST");
-            String name = System.getenv().get("DB_NAME");
+            String name = System.getenv().get("DB_NAME\"");
 
             if (username == null || password == null || host == null
                     || name == null) {
